@@ -1,0 +1,196 @@
+/* Global */
+body {
+    background-color: #fff !important;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.header-banner {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(79, 79, 79, 0.4)),
+    url('./img/banner.png');
+    height: 250px;
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+}
+nav {
+    background-color: #697964;
+    padding: 1em;
+    margin-bottom: 1em;
+
+    ul {
+        margin-bottom: 0 !important;
+        padding-left: 0 !important;
+
+        li {
+            display: inline;
+            margin: 0 1.5em;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+
+                &:hover {
+                    color: #1f2f2f;
+                }
+            }
+        }
+    }
+}
+
+/* Home */
+.home-plants {
+  .row {
+    margin-bottom: 2em;
+  }
+
+  img {
+    width:100%;
+  }
+}
+
+/* Plant List */
+.plant-details {
+
+  border-bottom: 1px solid #1f2f2f;
+  padding: 1em 0;
+
+  .col-2.delete {
+    align-content: center;
+  }
+
+  span {
+    display: block;
+    margin: 1em 0;
+
+    label {
+      display:block;
+      font-weight: bold;
+    }
+  }
+}
+
+/* Add a Plant */
+.btn-green {
+    background-color: #8bc34a !important;
+    max-height: 40px;
+    align-self: center;
+  }
+
+  .btn-danger {
+    background-color: #FF474C;
+    max-height: 40px;
+    align-self: center;
+    width: 100% !important;
+  }
+
+  .form {
+    margin: 0 25% 3em 25%;
+    background-color: #f9f8eb;
+    padding: 1em 2em 2em 2em;
+
+    label {
+      width: 100%;
+      display: block;
+      margin-bottom: 0.25em;
+    }
+
+    input {
+      width: 100%;
+      display: block;
+      margin-bottom: 1em;
+      height: 40px;
+    }
+  }
+
+/* Members */
+.member-info {
+  border-bottom: 1px solid #1f2f2f;
+  padding: 1em 0;
+
+  .col-4 {
+    align-content: center;
+  }
+
+  .member-details {
+    margin: 1.5em 0;
+  }
+
+  .update-form {
+    background-color: #f9f8eb;
+    padding: 1em;
+    margin: 1em 0;
+
+    .col-4 {
+      span {
+        margin-right: .5em;
+      }
+    }
+
+    .col-1 {
+      align-content: end;
+      padding: 0;
+
+      .btn-green {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* Contact */
+.contact {
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  label {
+    margin-bottom: 1em;
+  }
+  
+  input, textarea {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+  }
+
+  textarea {
+    width: 300px;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 200px !important;
+    height: 40px;
+    align-self: center;
+    margin-left: 3em;
+  }
+  
+  button:hover {
+    background-color: #21a1f1;
+  }
+  }
+
+
+
+/* Footer */
+.plant-footer {
+    padding: 1em;
+    background-color: #697964;
+    color: #fff;
+    margin-top: 1em;
+
+    a {
+        color: #fff;
+    }
+}
